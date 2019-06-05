@@ -58,7 +58,7 @@ default["conda"]["default_libs"]                   = %w{ }
 #numpy hdfs3 scikit-learn matplotlib pandas
 
 # Comma separated list of provided library names we install for users
-default['conda']['provided_lib_names']           = "hops, pandas, tensorflow-serving-api, hopsfacets, mmlspark, numpy"
+default['conda']['provided_lib_names']           = "hops, pandas, tensorflow-serving-api, hopsfacets, mmlspark, numpy, requests, folium, termcolor, python-highcharts"
 # Comma separated list of preinstalled libraries users should not touch
 default['conda']['preinstalled_lib_names']       = "tensorflow-gpu, tensorflow, pydoop, pyspark, tensorboard, jupyter, sparkmagic, hdfscontents"
 
